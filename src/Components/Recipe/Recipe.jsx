@@ -2,7 +2,8 @@ import "./Recipe.css"
 import { FaRegClock } from "react-icons/fa6";
 import { FaFireAlt } from "react-icons/fa";
 
-const Recipe = ({ recipe }) => {
+
+const Recipe = ({ recipe, addToCookingList }) => {
     const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
     const [first, second, third] = ingredients;
     return (
@@ -19,9 +20,9 @@ const Recipe = ({ recipe }) => {
 
                 {/* ingredients */}
                 <ul className="my-4 text-[#878787] decoration">
-                    <li>{first}</li>
-                    <li>{second}</li>
-                    <li>{third}</li>
+                    <li className="ingredients">{first}</li>
+                    <li className="ingredients">{second}</li>
+                    <li className="ingredients">{third}</li>
                 </ul>
 
                 <hr />
@@ -41,7 +42,7 @@ const Recipe = ({ recipe }) => {
                 </div>
 
                 {/* Cook btn */}
-                <button className="bg-[#0BE58A] text-black text-xl font-semibold rounded-full px-7 py-3">Want to Cook</button>
+                <button onClick={() => addToCookingList(recipe)} className="bg-[#0BE58A] text-black text-xl font-semibold rounded-full px-7 py-3">Want to Cook</button>
             </div>
         </div>
     );
