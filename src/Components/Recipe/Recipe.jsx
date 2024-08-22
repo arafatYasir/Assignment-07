@@ -32,7 +32,7 @@ const Recipe = ({ recipe, addToCookingList }) => {
                     {/* Preparing Time */}
                     <div className="flex items-center gap-2">
                         <FaRegClock />
-                        <p className="text-[#282828]">{preparing_time}</p>
+                        <p className="text-[#282828]">{preparing_time} minutes</p>
                     </div>
                     {/* Calories */}
                     <div className="flex items-center gap-2">
