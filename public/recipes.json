@@ -1,6 +1,6 @@
 [
     {
-        "recipe_image": "https://i.postimg.cc/QtfmdFG6/Teriyaki-Chicken.jpg",
+        "recipe_image": "https://christieathome.com/wp-content/uploads/2022/02/Teriyaki-Chicken-14.jpg",
         "recipe_id": 1,
         "recipe_name": "Chicken Teriyaki",
         "short_description": "Classic Japanese dish with a sweet and savory sauce.",
@@ -13,10 +13,10 @@
         "calories": 210
     },
     {
-        "recipe_image": "https://i.postimg.cc/tCK5J0wH/Pesto-Pasta.jpg",
+        "recipe_image": "https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Basil-Pesto-Thumbnail.jpg",
         "recipe_id": 2,
         "recipe_name": "Pesto Pasta",
-        "short_description": "Fresh basil pesto with penne pasta.",
+        "short_description": "Fresh basil pesto with penne pasta and letus.",
         "ingredients": [
             "Pasta",
             "Basil",
@@ -26,7 +26,7 @@
         "calories": 450
     },
     {
-        "recipe_image": "https://i.postimg.cc/R0RQgWFM/Greek-Salad.jpg",
+        "recipe_image": "https://www.bowlofdelicious.com/wp-content/uploads/2020/07/Greek-Salad-square.jpg",
         "recipe_id": 3,
         "recipe_name": "Greek Salad",
         "short_description": "Refreshing and healthy salad with feta cheese and olives.",
@@ -39,7 +39,7 @@
         "calories": 300
     },
     {
-        "recipe_image": "https://i.postimg.cc/LX8kwmYj/Tomato-Soup.webp",
+        "recipe_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/tomato-soup-recipe-2-500x500.jpg",
         "recipe_id": 4,
         "recipe_name": "Tomato Soup",
         "short_description": "Classic comfort food with a rich tomato flavor.",
@@ -52,7 +52,7 @@
         "calories": 180
     },
     {
-        "recipe_image": "https://i.postimg.cc/0QXGqhDF/Beef-Burger.jpg",
+        "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_J1lscOFdZj55mQCPmRQ4Me7fCGVZNDjN4w&s",
         "recipe_id": 5,
         "recipe_name": "Beef Burger",
         "short_description": "Juicy beef patty with all the classic toppings.",
@@ -65,7 +65,7 @@
         "calories": 550
     },
     {
-        "recipe_image": "https://i.postimg.cc/mkcYZVSD/Chocolage-Cake.jpg",
+        "recipe_image": "https://www.foodandwine.com/thmb/JB9N0qA141JpFZVJ-EBxCQ9kJx8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/moms-chocolate-cake-XL-RECIPE0918-10dde1dcd79b47b9876cda8812f11ad6.jpg",
         "recipe_id": 6,
         "recipe_name": "Chocolate Cake",
         "short_description": "Decadent chocolate cake with rich frosting.",

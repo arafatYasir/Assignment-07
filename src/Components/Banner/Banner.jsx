@@ -1,7 +1,7 @@
 const Banner = () => {
     return (
 
-        <div className="mt-14 rounded-3xl hero h-[600px] bg-[url('https://i.postimg.cc/ZqWkm9RJ/Chef-cooking.png')]">
+        <div className="mt-14 rounded-3xl hero h-[600px] bg-[url('https://i.ibb.co/860k4MM/Chef-cooking.png')]">
             <div className="hero-overlay bg-opacity-0"></div>
             <div className="hero-content text-neutral-content text-center">
                 <div className="max-w-4xl">

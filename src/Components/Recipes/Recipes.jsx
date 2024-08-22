@@ -12,7 +12,7 @@ const Recipes = ({addToCookingList, cookingList}) => {
             .then(data => setRecipes(data))
     }, []);
     return (
-        <div className="flex gap-10">
+        <div className="flex gap-10 items-start">
             <div className="grid grid-cols-2 gap-24">
                 {
                     recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe} addToCookingList={addToCookingList}></Recipe>)

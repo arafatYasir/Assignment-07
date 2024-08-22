@@ -1,23 +1,15 @@
-const Cook = ({cookingList}) => {
+const Cook = ({ cookingList }) => {
     return (
-        <div className="border-2 rounded-2xl p-6">
-            <h2 className="text-2xl font-semibold mb-4 text-center">Want to cook: {cookingList.length}</h2>
-            <hr className="w-96 mx-auto" />
+        <div className="border-2 rounded-2xl h-[685px] max-h-[900px]">
+            <h2 className="text-2xl font-semibold mb-4 text-center mt-8 lg:mx-40">Want to cook: {cookingList.length}</h2>
+            <hr className="mx-20 mx-auto" />
 
-            {/* Want to cook table */}
-            <table className="text-[#878787]">
-                <thead>
-                    <tr className="font-medium">
-                        <th>Name</th>
-                        <th>Time</th>
-                        <th>Calories</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                </tbody>
-
-            </table>
+            {/* Want to cook table {flex} */}
+            <div className="text-[#878787] text-xl flex gap-16">
+                <p>Name</p>
+                <p>Time</p>
+                <p>Calories</p>
+            </div>
         </div>
     );
 };
