@@ -3,7 +3,7 @@ import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 import Cook from "../Cook/Cook";
 
-const Recipes = ({addToCookingList, cookingList}) => {
+const Recipes = ({addToCookingList, cookingList, currentlyCooking, addTocurrentlyCookingList}) => {
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const Recipes = ({addToCookingList, cookingList}) => {
                     recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe} addToCookingList={addToCookingList}></Recipe>)
                 }
             </div>
-            <Cook cookingList={cookingList}></Cook>
+            <Cook cookingList={cookingList} currentlyCooking={currentlyCooking} addTocurrentlyCookingList={addTocurrentlyCookingList}></Cook>
         </div>
     );
 };

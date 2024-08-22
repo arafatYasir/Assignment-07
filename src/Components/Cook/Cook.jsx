@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-const Cook = ({ cookingList }) => {
-    const [currentlyCooking, setCurrentlyCooking] = useState([]);
+const Cook = ({ cookingList, currentlyCooking, addTocurrentlyCookingList }) => {
+    let time = 0, calories = 0;
 
-    const addTocurrentlyCookingList = (newCooking) => {
-        const newCurrentlyCookingList = [...currentlyCooking, newCooking];
-        setCurrentlyCooking(newCurrentlyCookingList);
+    for(const recipe of currentlyCooking) {
+        time = time + recipe.preparing_time;
+        calories = calories + recipe.calories;
     }
+
     return (
         <div className="border-2 rounded-2xl h-[685px]">
             <h2 className="text-2xl font-semibold mb-4 text-center mt-8 lg:mx-40">Want to cook: {cookingList.length}</h2>
@@ -57,6 +58,11 @@ const Cook = ({ cookingList }) => {
                         </div>)
                     }
                 </div>
+            </div>
+
+            <div className="text-lg text-[#282828be] font-medium text-right mt-10">
+                <p>Total Time = {time} minutes</p>
+                <p>Total Calories = {calories} calories</p>
             </div>
         </div>
     );

@@ -9,7 +9,7 @@
             "Soy sauce",
             "Basil"
         ],
-        "preparing_time": "30",
+        "preparing_time": 30,
         "calories": 210
     },
     {
@@ -22,7 +22,7 @@
             "Basil",
             "Olive oil"
         ],
-        "preparing_time": "25",
+        "preparing_time": 25,
         "calories": 450
     },
     {
@@ -35,7 +35,7 @@
             "Tomatoes",
             "Feta cheese"
         ],
-        "preparing_time": "20",
+        "preparing_time": 20,
         "calories": 300
     },
     {
@@ -48,7 +48,7 @@
             "Onion",
             "Garlic"
         ],
-        "preparing_time": "45",
+        "preparing_time": 45,
         "calories": 180
     },
     {
@@ -61,7 +61,7 @@
             "Cheese",
             "Bun"
         ],
-        "preparing_time": "35",
+        "preparing_time": 35,
         "calories": 550
     },
     {
@@ -74,7 +74,7 @@
             "Sugar",
             "Cocoa"
         ],
-        "preparing_time": "50",
+        "preparing_time": 50,
         "calories": 350
     }
 ]
