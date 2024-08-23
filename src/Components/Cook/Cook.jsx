@@ -37,7 +37,7 @@ const Cook = ({ cookingList, currentlyCooking, addTocurrentlyCookingList }) => {
             </div>
 
             {/* Currently cooking table {flex} */}
-            <h2 className="text-2xl font-semibold mb-4 text-center mt-8 lg:mx-40">Currently Cooking: { }</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-center mt-8 lg:mx-40">Currently Cooking: {currentlyCooking.length}</h2>
             <hr className="mx-16" />
             <div>
                 <div className="text-[#878787] text-xl font-medium flex gap-20 mt-6 mx-16">

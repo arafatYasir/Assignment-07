@@ -9,8 +9,17 @@ function App() {
   const [cookingList, setCookingList] = useState([]);
 
   const addToCookingList = (recipe) => {
-    const newCookingList = [...cookingList, recipe];
-    setCookingList(newCookingList);
+    let flag = 1;
+    for (const cook of cookingList) {
+      if (cook.recipe_id === recipe.recipe_id) {
+        flag = 0;
+        break;
+      }
+    }
+    if (flag == 1) {
+      const newCookingList = [...cookingList, recipe];
+      setCookingList(newCookingList);
+    }
   }
 
   // Currently cooking

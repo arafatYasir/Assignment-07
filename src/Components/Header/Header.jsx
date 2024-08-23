@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="mt-14 flex justify-between items-center">
+        <div className="mt-14 flex justify-between items-center flex-col md:flex-row gap-5 md:gap-0">
             <h1 className="text-3xl font-bold">Recipe Calories</h1>
             <ul className="flex text-xl gap-12 text-[#180c30]">
                 <li>Home</li>
